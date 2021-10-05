@@ -29,9 +29,25 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
+    name: 'Expense tracker app',
+    description: 'This is an expense tracker app based on MERN stack.',
+    stack: ['MongoDB', 'Express', 'React', 'NodeJS'],
+    sourceCode: 'https://github.com/AnujaOswal/expense-tracker-app',
+    livePreview: 'https://github.com',
+  },
+  {
+    name: 'Cryptocurrency Finance Price Tracker',
+    description:
+      'This React App keeps track of records of Cryptocurrency and display currency as per the user goes on searching.',
+    stack: ['CSS', 'Bootstrap', 'ReactJs'],
+    sourceCode:
+      'https://github.com/AnujaOswal/Cryptocurrency-Finance-Price-Tracker-React-App-',
+    livePreview: 'https://cryptocurrency-pricetracker-app.netlify.app',
+  },
+  {
     name: 'Whatsapp Chating Clone',
     description:
-      'This React App is RealTime Chating WhatsApp like clone many authorized user can chat with each other and share their emotions with their timestamp. All users are verified and this is done by firebase tool itself by adding google authentication and the realtime database is also store in firebase database whenever the user enters the chat room what he/she write at what time to whom all store in firebase db.',
+      'This React App is RealTime Chating WhatsApp like clone many authorized user can chat with each other and share their emotions with their timestamp.',
     stack: ['ReactJs', 'CSS', 'firebase'],
     sourceCode: 'https://github.com/AnujaOswal/WhatsappReactClone',
     livePreview: 'https://whatsappweb-ao.netlify.app/',
@@ -39,28 +55,11 @@ const projects = [
   {
     name: 'Netflix Video Streaming Clone',
     description:
-      'This Video Streaming Clone is made of ReactJs Framework and to add more style css ,google fonts is used and for google ,Fb authentication purpose firebase tool is used. This App shows you the related shows, episodes, movies their description ratings, authors, trailers but to authorized subscribed user.',
+      'This Video Streaming Clone is made of ReactJs Framework. This App shows you the related shows, episodes, movies their description ratings, authors, trailers but to authorized subscribed user.',
     stack: ['ReactJs', 'CSS', 'Firebase'],
     sourceCode: 'https://github.com/AnujaOswal/NetFlix-CLONE',
     livePreview: 'https://netflix-video-streaming-clone.netlify.app/',
   },
-  {
-    name: 'Cryptocurrency Finance Price Tracker',
-    description:
-      'This React App keeps track of records of Cryptocurrency and display currency as per the user goes on searching. This App fully focuses on reactJs funcationalites to add more styles into boostrap and css is used',
-    stack: ['CSS', 'Bootstrap', 'ReactJs'],
-    sourceCode:
-      'https://github.com/AnujaOswal/Cryptocurrency-Finance-Price-Tracker-React-App-',
-    livePreview: 'https://cryptocurrency-pricetracker-app.netlify.app',
-  },
-  // {
-  //   name: 'Project 4',
-  //   description:
-  //     'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-  //   stack: ['SASS', 'TypeScript', 'React'],
-  //   sourceCode: 'https://github.com',
-  //   livePreview: 'https://github.com',
-  // },
   // {
   //   name: 'Project 5',
   //   description:
