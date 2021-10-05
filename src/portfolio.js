@@ -31,7 +31,7 @@ const projects = [
   {
     name: 'Whatsapp Chating Clone',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'This React App is RealTime Chating WhatsApp like clone many authorized user can chat with each other and share their emotions with their timestamp. All users are verified and this is done by firebase tool itself by adding google authentication and the realtime database is also store in firebase database whenever the user enters the chat room what he/she write at what time to whom all store in firebase db.',
     stack: ['ReactJs', 'CSS', 'firebase'],
     sourceCode: 'https://github.com/AnujaOswal/WhatsappReactClone',
     livePreview: 'https://whatsappweb-ao.netlify.app/',
@@ -39,7 +39,7 @@ const projects = [
   {
     name: 'Netflix Video Streaming Clone',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'This Video Streaming Clone is made of ReactJs Framework and to add more style css ,google fonts is used and for google ,Fb authentication purpose firebase tool is used. This App shows you the related shows, episodes, movies their description ratings, authors, trailers but to authorized subscribed user.',
     stack: ['ReactJs', 'CSS', 'Firebase'],
     sourceCode: 'https://github.com/AnujaOswal/NetFlix-CLONE',
     livePreview: 'https://netflix-video-streaming-clone.netlify.app/',
@@ -47,7 +47,7 @@ const projects = [
   {
     name: 'Cryptocurrency Finance Price Tracker',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'This React App keeps track of records of Cryptocurrency and display currency as per the user goes on searching. This App fully focuses on reactJs funcationalites to add more styles into boostrap and css is used',
     stack: ['CSS', 'Bootstrap', 'ReactJs'],
     sourceCode:
       'https://github.com/AnujaOswal/Cryptocurrency-Finance-Price-Tracker-React-App-',
