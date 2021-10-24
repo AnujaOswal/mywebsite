@@ -1,6 +1,6 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://AnujaOswal.github.io/cleanfolio',
+  homepage: 'https://anujaoswal.github.io/mywebsite/',
   title: 'AO.',
 }
 
@@ -29,8 +29,17 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
+    name: 'Recipe app',
+    description:
+      'This is an recipe app based on MERN stack where you create or edit your own recipe and find any recipes',
+    stack: ['MongoDB', 'Express', 'React', 'NodeJS'],
+    sourceCode: 'https://github.com/AnujaOswal/MERNRCT',
+    livePreview: 'https://mern-recipe-app-2021.herokuapp.com/',
+  },
+  {
     name: 'Expense tracker app',
-    description: 'This is an expense tracker app based on MERN stack.',
+    description:
+      'This is an expense tracker app based on MERN stack where your daily expense get track.',
     stack: ['MongoDB', 'Express', 'React', 'NodeJS'],
     sourceCode: 'https://github.com/AnujaOswal/expense-tracker-app',
     livePreview: 'https://github.com',
@@ -86,7 +95,6 @@ const skills = [
   'JavaScript',
   'Bootstrap',
   'React',
-  'Redux',
   'Material UI',
   'MongoDB',
   'MySql',

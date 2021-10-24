@@ -1,4 +1,5 @@
-import { useContext } from 'react'
+import { useContext, useEffect, useState } from 'react'
+import BounceLoader from 'react-spinners/BounceLoader'
 import { ThemeContext } from './contexts/theme'
 import Header from './components/Header/Header'
 import About from './components/About/About'
@@ -12,21 +13,37 @@ import Education from './components/Education/Education'
 
 const App = () => {
   const [{ themeName }] = useContext(ThemeContext)
+  const [loading, setLoading] = useState(false)
 
+  useEffect(() => {
+    setLoading(true)
+    setTimeout(() => {
+      setLoading(false)
+    }, 3900)
+  }, [])
   return (
     <div id='top' className={`${themeName} app`}>
-      <Header />
-
-      <main>
-        <About />
-        <Education />
-        <Projects />
-        <Skills />
-        <Contact />
-      </main>
-
-      <ScrollToTop />
-      <Footer />
+      {loading ? (
+        <div className='loader'>
+          <BounceLoader color='#90a0d9' loading={loading} />
+          <h6>
+            A N U J A <br />O s w a l
+          </h6>
+        </div>
+      ) : (
+        <>
+          <Header />
+          <main>
+            <About />
+            <Education />
+            <Projects />
+            <Skills />
+            <Contact />
+          </main>
+          <ScrollToTop />
+          <Footer />
+        </>
+      )}
     </div>
   )
 }
