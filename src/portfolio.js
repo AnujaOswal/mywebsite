@@ -42,7 +42,7 @@ const projects = [
       'This is an expense tracker app based on MERN stack where your daily expense get track.',
     stack: ['MongoDB', 'Express', 'React', 'NodeJS'],
     sourceCode: 'https://github.com/AnujaOswal/expense-tracker-app',
-    livePreview: 'https://github.com',
+    livePreview: 'https://expense-tracker-app-2021.herokuapp.com/',
   },
   {
     name: 'Cryptocurrency Finance Price Tracker',
@@ -54,7 +54,7 @@ const projects = [
     livePreview: 'https://cryptocurrency-pricetracker-app.netlify.app',
   },
   {
-    name: 'Whatsapp Chating Clone',
+    name: 'Whatsapp Chatting Clone',
     description:
       'This React App is RealTime Chating WhatsApp like clone many authorized user can chat with each other and share their emotions with their timestamp.',
     stack: ['ReactJs', 'CSS', 'firebase'],
