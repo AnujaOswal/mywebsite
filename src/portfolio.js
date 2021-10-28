@@ -10,7 +10,7 @@ const about = {
   role: 'Aspring Developer ',
   description: 'curious learner',
   resume:
-    'https://drive.google.com/file/d/1fME6s_xgURYVkmFc1X09Yj6SNbnnXXmM/view?usp=sharing',
+    'https://drive.google.com/file/d/1rpGhqDwISTV-PKpwLGYCMDJBfCSyzfge/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/anuja-oswal-783476128',
     github: 'https://github.com/AnujaOswal',
