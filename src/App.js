@@ -10,6 +10,7 @@ import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import './App.css'
 import Education from './components/Education/Education'
+// import CustomCursor from './CustomCursor/CustomCursor'
 
 const App = () => {
   const [{ themeName }] = useContext(ThemeContext)
@@ -23,6 +24,7 @@ const App = () => {
   }, [])
   return (
     <div id='top' className={`${themeName} app`}>
+      {/* <CustomCursor /> */}
       {loading ? (
         <div className='loader'>
           <BounceLoader color='#90a0d9' loading={loading} />

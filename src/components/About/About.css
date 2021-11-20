@@ -1,6 +1,14 @@
+*,
+:after,
+:before {
+  box-sizing: inherit;
+}
+
 .about {
   flex-direction: column;
   margin-top: 3em;
+  flex: 1; /* additionally, equal width */
+  padding: 1em;
 }
 
 .about__name {
@@ -29,9 +37,82 @@
   margin-right: 1em;
 }
 
+.intro-area {
+  display: flex;
+  align-items: center;
+}
+.title {
+  position: absolute;
+  display: inline-block;
+  flex-direction: column;
+  align-items: center;
+}
+/* .title:after {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 2px;
+  margin: 15px 0;
+  background: hsla(0, 0%, 100%, 0.85);
+  z-index: -1;
+} */
+.title.left.social {
+  justify-content: space-between;
+}
+.title.left p {
+  transform: rotate(-90deg);
+}
+.title p {
+  padding: 5px 10px;
+  font-weight: 900;
+  text-transform: uppercase;
+  background-color: #1d293a;
+  transform-origin: 50%;
+  border-radius: 4px;
+}
+.links {
+  margin-top: 15px;
+  margin: 15px;
+  display: block;
+  padding: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.follow {
+  display: block;
+  padding: 10px;
+  text-align: justify;
+}
+.links ul {
+  font-size: 22px;
+}
+.links ul li {
+  margin-right: 10px;
+}
+.title p,
+.title ul {
+  color: hsla(0, 0%, 100%, 0.85);
+}
+
+.title ul li {
+  margin-bottom: 10px;
+}
+ol li,
+ul li {
+  padding-left: 0;
+}
 @media (max-width: 600px) {
   .app .about {
     align-items: flex-start;
     margin-top: 2em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .title {
+    position: relative;
+    height: auto !important;
+    padding-bottom: 50px;
+    flex-direction: column-reverse;
   }
 }
