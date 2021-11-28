@@ -64,7 +64,7 @@ const About = () => {
               </>
             )}
           </div>
-          <div className="follow">
+          <div className='follow'>
             <p>FOLLOW ME</p>
           </div>
         </div>
