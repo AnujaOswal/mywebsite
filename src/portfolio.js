@@ -7,7 +7,7 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Anuja Oswal',
-  role: 'Aspiring Developer ',
+  role: 'Aspiring Developer',
   description: 'curious learner',
   resume:
     'https://drive.google.com/file/d/1rpGhqDwISTV-PKpwLGYCMDJBfCSyzfge/view?usp=sharing',
