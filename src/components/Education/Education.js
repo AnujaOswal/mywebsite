@@ -4,7 +4,7 @@ import './Education.css'
 const Education = () => {
   const { school, studyspecialization, yearduration, score } = education
   return (
-    <div>
+    <div id='education' style={{ marginTop: '117px' }}>
       <h2 className='section__title' style={{ paddingTop: '0.8em' }}>
         Education
       </h2>
